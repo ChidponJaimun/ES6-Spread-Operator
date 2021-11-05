@@ -12,6 +12,6 @@ const fullName = {
   lName: "Bond"
 };
 
-const user = { fullName, id: "1", username: "jamesbond007" };
+const user = { ...fullName, id: "1", username: "jamesbond007" };
 
 console.log(user);
